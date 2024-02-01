@@ -1,0 +1,283 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(240, 218, 240);
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    margin: 20px;
+    row-gap: 2em;
+}
+
+.line{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    justify-content: center;
+    column-gap: 2em;
+
+}
+
+.one{
+    width: 15%;
+    height: 20vh;
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    transition: transform 1s ease;
+
+
+
+}
+
+.chaild{
+    border: 1px solid;
+    width: 7vw;
+    height: 12vh;
+    display: flex;
+    background-color: rgb(214, 209, 209);
+
+}
+
+.two{
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(88, 1, 88);
+    text-align: center;
+    /* margin: auto; */
+    transition: opacity 1s ease;
+}
+
+
+.two:hover{
+    opacity: 0.6;
+}
+
+
+
+.A:hover {
+    transform: rotate(50deg);
+
+}
+
+.B:hover  {
+    transform: rotateX(50deg);
+    transition: transform 1s;
+}
+
+.C:hover {
+    transform: rotateY(50deg);
+    transition: transform 1s;
+}
+
+
+.D:hover {
+    transform: scale(3);
+    transition: transform 1s;
+}
+
+.E:hover {
+    transform: scalex(3);
+    transition: transform 1s;
+}
+
+
+
+
+.line2{
+    display: flex;
+    justify-content: center;
+    column-gap: 2em;
+    width: 100vw;
+    height: 20vh;
+    
+
+}
+
+.F:hover {
+    transform: scaleY(3);
+    transition: transform 1s;
+
+}
+
+.G:hover  {
+    transform: skewX(40deg); 
+}
+
+.H:hover {
+    transform: skewY(40deg);
+}
+
+
+.J:hover {
+    transform: translate(40px, 10px);
+}
+
+.K:hover {
+
+    transform: translateX(30px);
+   
+    
+}
+
+
+.line3{
+    display: flex;
+    justify-content: center;
+    column-gap: 2em;
+    width: 100vw;
+    height: 20vh;
+    
+
+}
+
+.L:hover {
+    transform: translateY(30px);
+}
+
+.I:hover {
+
+    transform: skewY(40deg) translate(20px, -35px) scale(1.5,2);
+    /* transition: transform 1s; */
+    
+   
+    
+}
+
+.line4{
+    display: flex;
+    justify-content: center;
+    column-gap: 2em;
+    width: 100vw;
+    height: 20vh;
+    
+
+}
+
+.O:hover {
+    transform: perspective(80px) rotateX(50deg);
+}
+
+.P:hover {
+
+    transform: perspective(80px) rotateY(50deg);   
+}
+
+
+.line5{
+    display: flex;
+    justify-content: center;
+    column-gap: 2em;
+    width: 100vw;
+    height: 20vh;
+}
+
+
+.Z:hover {
+    transform-origin:top right;
+    transform: rotateZ(40deg);
+
+}
+
+.ZH:hover  {
+    transform-origin:bottom left;
+    transform: rotateZ(40deg);
+}
+
+.V:hover {
+
+    transform-origin:bottom;
+    transform: perspective(90px) rotateX(20deg) ;
+}
+
+
+.N:hover {
+    transform-origin:top;
+    transform: perspective(150px) rotateX(30deg) ;
+}
+
+.M:hover {
+
+    transform-origin:left;
+    transform: perspective(150px) rotateY(30deg);
+   
+    
+}
+
+
+
+.line6{
+    display: flex;
+    justify-content: center;
+    column-gap: 2em;
+    width: 100vw;
+    height: 20vh;
+}
+
+
+.Q:hover {
+    transform-origin: right;
+    transform:  perspective(200px) rotateY(60deg);
+
+}
+
+.W:hover  {
+    transform-origin:TOP right;
+    transform:scale(2);
+}
+
+.R:hover {
+
+    transform-origin:bottom left ;
+    transform:scale(2);
+}
+
+
+.T:hover {
+    transform-origin:right;
+    transform: scaleX(2);
+}
+
+.U:hover {
+
+    transform-origin:left;
+    transform: scaleX(2);
+   
+    
+}
+
+
+
+.line7{
+    display: flex;
+    justify-content: center;
+    column-gap: 2em;
+    width: 100vw;
+    height: 20vh;
+    
+
+}
+
+.KH:hover {
+    transform-origin:top;
+    transform: scaleY(2);
+}
+
+.GH:hover {
+
+    transform-origin:bottom;
+    transform: scaleY(2);  
+}
